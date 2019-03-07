@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Slider from './Slider';
 
 const Repair = styled.div`
   color: #ffffff;
@@ -52,7 +53,9 @@ export class Main extends Component {
           </Text>
           <Button>Отправить заявку!</Button>
         </Col>
-        <Col md={6} />
+        <Col md={6}>
+          <Slider />
+        </Col>
       </Row>
     );
   }

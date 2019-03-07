@@ -8,7 +8,6 @@ import Menu from './components/Menu';
 import Main from './components/Main';
 
 const bgUrl = process.env.PUBLIC_URL + '/img/bg.png';
-console.log(bgUrl);
 
 const HeaderWrapper = styled.header`
   width: 100%;
